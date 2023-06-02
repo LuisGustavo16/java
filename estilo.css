@@ -1,0 +1,47 @@
+:root {
+    --principal: rgb(54, 49, 49);
+    --secundaria: bisque;
+    --terceira: rgb(230, 230, 173);
+}
+
+body#app {
+    background-color: var(--principal);
+    padding-left: 50rem;
+    padding-top: 10rem;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li {
+    color: var(--secundaria);
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+div {
+    padding-left: 2.5rem;
+}
+
+ul a {
+    text-decoration: none;
+    color: var(--terceira);
+    font-weight: 800;
+}
+
+div input {
+    background-color: var(--secundaria);
+}
+
+div button {
+    color: var(--principal);
+    font-weight: 900;
+    background-color: beige;
+    border: 2rem;
+    border-radius: 1rem;
+ }
+
+ div h6 {
+    color: bisque;
+ }
